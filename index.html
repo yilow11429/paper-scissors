@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>剪刀石頭布小遊戲</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>剪刀石頭布小遊戲</h1>
+
+    <div class="buttons">
+        <button onclick="play('剪刀')">✂️ 剪刀</button>
+        <button onclick="play('石頭')">🪨 石頭</button>
+        <button onclick="play('布')">🧻 布</button>
+    </div>
+
+    <div class="result">
+        <p id="player"></p>
+        <p id="computer"></p>
+        <h2 id="outcome"></h2>
+        <p id="score"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
